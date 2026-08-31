@@ -43,19 +43,19 @@ The visualization subsystem provides interactive tools for examining molecular s
 
 Individual atoms can be selected directly in the 3D scene. Information about the selected atom is displayed in the interface, including its element, residue type and residue number.
 
-![Atom selection](docs/atom-selection.png)
+![Atom selection](docs/analysis/atom-selection.png)
 
 #### Distance measurement
 
 The distance between two selected atoms can be measured directly in the molecular model.
 
-![Distance measurement](docs/distance-measurement.png)
+![Distance measurement](docs/analysis/distance-measurement.png)
 
 #### Angle measurement
 
 The angle formed by three selected atoms can be measured directly in the 3D scene.
 
-![Angle measurement](docs/angle-measurement.png)
+![Angle measurement](docs/analysis/angle-measurement.png)
 
 These tools allow structural characteristics to be investigated interactively without leaving the molecular visualization environment.
 
@@ -70,7 +70,7 @@ The available parameters include:
 * visualization parameters of molecular structures;
 * other graphical rendering settings.
 
-![Visualization settings](docs/visualization-settings.png)
+![Visualization settings](docs/visualization/visualization-settings.png)
 
 ## Contact matrix
 
@@ -80,7 +80,7 @@ The contact matrix represents spatial contacts between molecular elements and al
 
 The calculated matrices are presented as heatmaps.
 
-![Contact matrix](docs/contact-matrix.png)
+![Contact matrix](docs/analysis/contact-matrix.png)
 
 ## Fluctuation matrix
 
@@ -90,7 +90,7 @@ The calculation is based on changes in atomic coordinates throughout the molecul
 
 The resulting data can be represented as a heatmap for further analysis.
 
-![Fluctuation matrix](docs/fluctuation-matrix.png)
+![Fluctuation matrix](docs/analysis/fluctuation-matrix.png)
 
 ## Additional analysis
 
@@ -105,7 +105,7 @@ The subsystem also includes:
 
 The architecture of the developed subsystem and its integration with TAMD-Web are shown below.
 
-![System architecture](docs/architecture.png)
+![System architecture](docs/syst/architecture.png)
 
 ## Rendering and performance optimization
 
@@ -163,7 +163,7 @@ The subsystem was demonstrated using several molecular dynamics experiments, inc
 
 ### Molecular dynamics visualization
 
-![Molecular dynamics visualization](docs/molecular-visualization.png)
+![Molecular dynamics visualization](docs/visualization/molecular-visualization.png)
 
 ## Project materials
 
